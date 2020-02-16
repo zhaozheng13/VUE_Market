@@ -1,5 +1,6 @@
 // 设置注册步骤
 export const SET_SIGN_UP_SETP = (state, step) => {
+  console.log('更改步骤啦',step)
   state.signUpStep = step;
 };
 

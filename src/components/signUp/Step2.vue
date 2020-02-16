@@ -11,8 +11,13 @@ export default {
   name: 'Step2',
   data () {
     return {
+      phone:'',
       msg: '第二步'
     }
+  },
+  created:function(){
+    this.phone = this.$route.query.phone
+    console.log(this.phone)
   },
    methods:{
       ...mapMutations(['SET_SIGN_UP_SETP']),

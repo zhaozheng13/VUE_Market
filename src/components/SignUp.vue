@@ -2,13 +2,13 @@
   <div>
     <Row class="container">
       <i-col span="12" offset="2" class="signup-img-box">
-        <img src="../../static/img/signup-sale.png" alt="">
+        <img src="../../static/img/gouwuche.jpg" alt="">
       </i-col>
       <i-col span="8" class="box">
         <div class="sign-up-title">
           <h1>欢迎注册账号</h1>
           <br>
-          <h2>BIT MALL, 天天低价品质保证, 让消费者钱更值钱</h2>
+          <h2>ALAN MALL, 我消费 我开心</h2>
         </div>
         <div class="sing-up-step-box">
           <Steps :current="signUpStep" size="small">
